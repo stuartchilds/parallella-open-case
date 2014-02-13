@@ -22,6 +22,8 @@ Designed to be laser cut from 3mm clear acrylic.
 
 An [EBM PAPST 255H](http://www.ebmpapst.com/en/products/compact-fans/axial-compact-fans/axial_compact_fans_detail.php?pID=53708) fan was originally used, but this is quite possibly overkill and one of the lower air flow (and quieter!) variants of the model 255 may suffice. Alternatively, another 5vdc fan of similar proportions and with mounting holes spaced 20mm apart could be used.
 
+It is possible that washers will need to be inserted between the fan and acrylic in order to prevent the blade from catching.
+
 J15 on the Parallella will need to be bridged in order to enable 5v to be routed to one of the mounting hole pads, as this is where the fan takes its power from. See the Parallella documentation for details.
 
 Note that a heatsink should still be used with the Zynq chip, however, the one supplied with the Parallella may be too tall if using 20mm hex spacers between the board and the lid.
@@ -35,6 +37,7 @@ Note that a heatsink should still be used with the Zynq chip, however, the one s
 |  4  | 3.2mm ID x 3mm circular nylon spacer|
 |  7  | M3 16mm nylon screw                 |
 |  3  | M3 nylon washer                     |
+|  3  | M3 nylon nut                        |
 |  2  | M3 tinned solder tag                |
 
 ## Licence
